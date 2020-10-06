@@ -25,10 +25,10 @@
 #
 # Clearance Matrix equivalent:
 #
-#				class_L		class_N		class_PE
-#	class_L		0.75mm		3.0mm		4.5mm
-#	class_N					0.75mm		4.5mm
-#	class_PE							0.2mm*
+#            class_L  class_N  class_PE
+#  class_L    0.75mm   3.00mm    4.50mm
+#  class_N             0.75mm    4.50mm
+#  class_PE                      0.20mm*
 #
 # * Note there is only PE_mutual_clearance for clearance to other nets, so class_PE self-clearance
 #   defaults to 0.2mm from Project > Net Classes.
