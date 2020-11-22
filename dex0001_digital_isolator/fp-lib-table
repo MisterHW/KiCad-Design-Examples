@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "Layer_Legend")(type "KiCad")(uri "${KIPRJMOD}/../libs/Legend.pretty")(options "")(descr ""))
+  (lib (name "TerminalBlock_Weidmueller")(type "KiCad")(uri "${KIPRJMOD}/../libs/TerminalBlock_Weidmueller.pretty")(options "")(descr ""))
+  (lib (name "Transformer_MID_PPTI")(type "KiCad")(uri "${KIPRJMOD}/../libs/Transformer_MID_PPTI.pretty")(options "")(descr ""))
+  (lib (name "Jumper_Shunt")(type "KiCad")(uri "${KIPRJMOD}/../libs/Jumper_Shunt.pretty")(options "")(descr ""))
+)

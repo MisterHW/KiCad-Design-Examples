@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "TerminalBlock_Weidmueller")(type "KiCad")(uri "${KIPRJMOD}/../libs/TerminalBlock_Weidmueller.pretty/TerminalBlock_Weidmueller.kicad_sym")(options "")(descr ""))
+  (lib (name "Transformer_MID_PPTI")(type "KiCad")(uri "${KIPRJMOD}/../libs/Transformer_MID_PPTI.pretty/Transformer_MID_PPTI.kicad_sym")(options "")(descr ""))
+  (lib (name "Jumper_Shunt")(type "KiCad")(uri "S:/repos/KiCad Design Examples/libs/Jumper_Shunt.pretty/Jumper_Shunt.kicad_sym")(options "")(descr ""))
+)

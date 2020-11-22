@@ -1,0 +1,22 @@
+(version 0.1)
+
+# Localization of clearance to Edge.Cuts for isolation slots:
+# Closed inner Edge.Cuts contours inside Rule Area items that
+# do not exclude anything, but are used as named areas (slot1, slot2, ...).
+# This allows to test for insideArea('slot*') below.
+ 
+
+(rule "Edge.Cuts inner clearance"
+(layer inner)
+(condition "B.Layer == 'Edge.Cuts'")
+(constraint clearance (min 0.5mm)))
+
+(rule "Edge.Cuts outer clearance"
+(layer outer)
+(condition "B.Layer == 'Edge.Cuts'")
+(constraint clearance (min 1.2mm)))
+
+
+(rule "Edge.Cuts slot clearance"
+(condition "A.Layer == 'Edge.Cuts' && A.insideArea('slot*')")
+(constraint clearance (min 0.35mm)))
